@@ -15,8 +15,6 @@ The goal of this tool is to provide a clear view of:
 - Code integrity enforcement
 - System hardening state
 
----
-
 ## 🔍 Security Checks Performed
 
 ### 1. Virtualization-Based Security (VBS)
@@ -49,8 +47,6 @@ The goal of this tool is to provide a clear view of:
 - Checks UEFI Secure Boot state
 - Validates boot chain integrity against unsigned bootloaders
 
----
-
 ## 📊 Kernel Integrity Score
 
 The tool generates a **weighted security score (0–100)** based on:
@@ -69,14 +65,10 @@ The tool generates a **weighted security score (0–100)** based on:
 - 50–79 → Partially protected system
 - <50 → Weak kernel security posture
 
----
-
 ## ⚙️ Execution
 - Download the archive from release page.
 - Extract the "Kernel_Security_Checker.exe" file.
 - Double click and and see the verdict.
-
----
 
 ## 🖥️ Compatibility
 
@@ -86,5 +78,3 @@ The tool generates a **weighted security score (0–100)** based on:
 Requires:
 - PowerShell 5+
 - Administrative privileges (recommended for full accuracy)
-
----
